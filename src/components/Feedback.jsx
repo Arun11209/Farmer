@@ -22,7 +22,7 @@ function Feedback() {
     };
   
     return (
-      <div className="w-full min-h-screen bg-green-400 flex items-center justify-center p-4">
+      <div className="w-full min-h-screen bg-gray-500 flex items-center justify-center p-4">
         <div className="w-full max-w-2xl mx-auto p-6 bg-white shadow-md rounded-md">
         <h2 className="text-2xl font-bold mb-4 text-center">Feedback</h2>
   

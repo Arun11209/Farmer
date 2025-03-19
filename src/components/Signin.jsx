@@ -4,7 +4,7 @@ const Signin = () => {
 
   return (
     <>
-    <div className="flex justify-center items-center w-full min-h-screen bg-green-400 p-4">
+    <div className="flex justify-center items-center w-full min-h-screen bg-gray-500 p-4">
       <div className="w-full max-w-md p-6 bg-white shadow-md rounded-md text-center">
         <form action="#">
           <p className='text-2xl font-bold text-black'>Sign In</p>

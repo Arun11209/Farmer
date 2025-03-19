@@ -23,9 +23,9 @@ const ShoppingCart = () => {
   const totalPrice = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
   return (
-    <div className="min-h-screen bg-green-400 p-6">
-      <h2 className="text-3xl font-bold mb-6">Shopping Cart</h2>
-      <div className="bg-white shadow-md rounded-lg p-6 w-full max-w-3xl">
+    <div className="min-h-screen bg-gray-500 p-6 flex">
+      <h2 className="text-3xl font-bold mb-6 text-center">Shopping Cart</h2>
+      <div className="bg-white shadow-md rounded-lg p-6 w-full max-w-full h-[550px]">
         {cart.length === 0 ? (
           <p className="text-gray-500 text-center">Your cart is empty.</p>
         ) : (

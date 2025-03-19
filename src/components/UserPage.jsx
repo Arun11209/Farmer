@@ -10,7 +10,7 @@ const UserPage = () => {
   };
 
   return (
-    <div className="flex justify-center w-full items-center min-h-screen bg-green-500 p-4">
+    <div className="flex justify-center w-full items-center min-h-screen bg-gray-500 p-4">
       <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-md text-center">
         {/* Profile Picture */}
         <div className="flex justify-center">
