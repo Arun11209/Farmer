@@ -5,7 +5,7 @@ const Slide = () => {
     const [open,setOpen]=useState(false)
   return (
     <>
-    <div className={`bg-gray-900 min-h-screen ${open ? 'w-40' : 'w-0'}  pt-8 relative duration-300 mb-20 flex flex-col items-center`}> 
+    <div className={`bg-gray-900 min-h-screen ${open ? 'w-60' : 'w-0'}  pt-8 relative duration-300 mb-20 flex flex-col items-center`}> 
         <BsArrowLeftShort 
           className={`bg-white text-gray-400 text-3xl rounded-full absolute -right-3 top-9  border border-gray cursor-pointer ${!open && "rotate-180"}`}
           onClick={() => setOpen(!open)}
