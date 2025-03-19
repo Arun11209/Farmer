@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-900 p-3 text-white flex justify-between items-center relative">
       <div className="flex items-center">
-        <img src="../images/images/logo.png.png" alt="Logo" height={40} width={50} className="inline mt-2 ml-4" />
+        <img src="../images/images/logo.png" alt="Logo" height={40} width={50} className="inline mt-2 ml-4" />
         <span className="lg:text-3xl ml-2 sm:text-md md:text-xl">Farmer To Market</span>
       </div>
       <div className="md:hidden">
