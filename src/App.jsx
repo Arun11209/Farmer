@@ -38,7 +38,7 @@ const Navbar = () => {
 
 const Home = () => (
   <>
-  <div className="p-6 h-screen w-full flex flex-col justify-center items-center text-center bg-cover bg-center bg-[url('images/home2.jpeg')]">
+  <div className="p-6 h-screen w-full flex flex-col justify-center items-center text-center bg-cover bg-center bg-[url('/images/home2.jpeg')]">
     <h2 className="text-4xl font-bold text-black mb-4">Welcome to Farm to Market</h2>
     <p className="text-2xl text-black max-w-xl">Connecting farmers directly with consumers.</p>
   </div>
@@ -52,7 +52,7 @@ const Home = () => (
 );
 
 const Farms = () => (
-  <div className="p-6 h-screen w-full flex flex-col justify-center items-center text-center bg-cover bg-center bg-[url('images/Farming.jpeg')]">
+  <div className="p-6 h-screen w-full flex flex-col justify-center items-center text-center bg-cover bg-center bg-[url('/images/Farming.jpeg')]">
     <h2 className="text-4xl font-bold text-black mb-4">Our Farms</h2>
     <ul className="text-white text-2xl font-bold space-y-2">
       <li>Green Valley Farm</li>
@@ -63,7 +63,7 @@ const Farms = () => (
 );
 
 const Markets = () => (
-  <div className="p-6 h-screen w-full flex flex-col justify-center items-center text-center bg-cover bg-center bg-[url('images/bgimage4.jpg')]">
+  <div className="p-6 h-screen w-full flex flex-col justify-center items-center text-center bg-cover bg-center bg-[url('/images/bgimage4.jpg')]">
     <h2 className="text-4xl font-bold text-black mb-4">Market Locations</h2>
     <p className="text-xl text-black max-w-xl">Find fresh farm produce at our partner markets.</p>
   </div>
@@ -90,7 +90,7 @@ const OrderForm = () => {
 
 
   return (
-    <div className="p-6 h-screen w-full flex flex-col justify-center items-center text-center bg-cover bg-center bg-[url('images/Home.jpeg')]">
+    <div className="p-6 h-screen w-full flex flex-col justify-center items-center text-center bg-cover bg-center bg-[url('/images/Home.jpeg')]">
       <h2 className="text-4xl font-bold text-black mt-10 mb-5">Place an Order</h2>
       <form onSubmit={handleSubmit} className="mt-4 text-white">
         <input
