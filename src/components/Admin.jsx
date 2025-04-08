@@ -1,9 +1,6 @@
 // import React from 'react'
 import React, { useState,useEffect } from "react";
-import Button from "./UI/Button"
-import Input from "./UI/Input"
-import Card from "./UI/Card"
-import CardContent from "./UI/CardContent" 
+import { Button,Input,Card,CardContent } from "./UI";
 import { motion } from "framer-motion";
 import { Lock, Trash, Plus,LogOut } from "lucide-react";
 function Admin() {
