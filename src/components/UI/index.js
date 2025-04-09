@@ -6,5 +6,5 @@ export{
     Button,
     Card,
     CardContent,
-    Input
+    Input,
 }
