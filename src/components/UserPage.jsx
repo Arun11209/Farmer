@@ -1,6 +1,6 @@
 import React from "react";
 // import {img3} from '../assets/man.jpg';
-const UserPage = () => {
+const UserPage = ({ darkMode }) => {
   const user = {
     name: "John Doe",
     email: "johndoe@example.com",
@@ -10,8 +10,8 @@ const UserPage = () => {
   };
 
   return (
-    <div className="flex justify-center w-full items-center min-h-screen bg-gray-500 p-4">
-      <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-md text-center">
+    <div className="flex justify-center w-full items-center min-h-screen bg-gray-900 p-4">
+      <div className="bg-gray-800 shadow-lg rounded-lg p-6 w-full max-w-md text-center">
         {/* Profile Picture */}
         <div className="flex justify-center">
           <img
@@ -23,12 +23,12 @@ const UserPage = () => {
 
         {/* User Details */}
         <div className=" mt-4">
-          <h2 className="text-2xl font-bold text-gray-800">{user.name}</h2>
-          <p className="text-gray-600 text-lg">{user.email}</p>
-          <p className="text-gray-700 mt-1">
+          <h2 className="text-2xl font-bold text-white">{user.name}</h2>
+          <p className="text-gray-300 text-lg">{user.email}</p>
+          <p className="text-gray-300 mt-1">
             <span className="font-semibold">Role:</span> {user.role}
           </p>
-          <p className="text-gray-700">
+          <p className="text-gray-300">
             <span className="font-semibold">Location:</span> {user.location}
           </p>
         </div>
